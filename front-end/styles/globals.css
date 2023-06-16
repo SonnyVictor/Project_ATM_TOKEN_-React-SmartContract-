@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+};
+
+@layer components {
+  .btn{
+    @apply h-14 w-52 text-white font-bold text-2xl  bg-orange-500 duration-150 ease-out rounded-full hover:shadow-[0px_0px_20px_0px_rgba(255,175,0,0.56)] 
+  }
+  .btn-header{
+    @apply h-12 w-40 max-h-40 bg-orange-500 rounded-full hover:border border-white hover:border-white duration-150 ease-out
+  }
+}
+
+
+
+.savings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.savings-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 300px;
+}
+
+.savings-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-align: center;
+}
+
+.savings-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.savings-amount,
+.savings-rate,
+.savings-profit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.savings-amount-label,
+.savings-rate-label,
+.savings-profit-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.savings-amount-value,
+.savings-rate-value,
+.savings-profit-value {
+  font-size: 1.2rem;
+  color: #00bfa5;
+}
+
+
+
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .App .openModalBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }

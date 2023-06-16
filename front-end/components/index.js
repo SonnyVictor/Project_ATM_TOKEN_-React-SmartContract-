@@ -1,0 +1,17 @@
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as ChangeNetWorkdModal } from "./ChangeNetWorkdModal";
+export { default as ICO } from "./ICO";
+export { default as Welcome } from "./Welcome";
+// export { default as Reward } from "./Reward";
+// export { default as ICO } from "./ICO";
+export { default as CrowdFunding } from "./CrowdFunding";
+export { default as Staking } from "./Staking";
+export { default as Profit } from "./Profit";
+// export { default as Card } from "./Card";
+// export { default as NoWalletDetected } from "./NoWalletDetected";
+// export { default as InfoModal } from "./InfoModal";
+// export { default as Intro } from "./Intro";
+export { default as ModalError } from "./ModalError";
+export { default as ModalInstallMetamask } from "./ModalInstallMetamask";
+export { default as Exchange } from "./Exchange";

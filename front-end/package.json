@@ -1,0 +1,40 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.4.4",
+    "@web3modal/ethereum": "^2.4.1",
+    "@web3modal/react": "^2.4.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "ethers": "5.7.2",
+    "form-data": "^4.0.0",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-modal": "^3.16.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
